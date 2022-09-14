@@ -13,6 +13,8 @@
 		0A02AE6F28D1ADA900F9A916 /* DoCathTryThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02AE6E28D1ADA900F9A916 /* DoCathTryThrows.swift */; };
 		0A02AE7128D1B4AE00F9A916 /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02AE7028D1B4AE00F9A916 /* DownloadImageAsync.swift */; };
 		0A02AE7328D1CECE00F9A916 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02AE7228D1CECE00F9A916 /* AsyncAwait.swift */; };
+		0A02AE7528D1D80400F9A916 /* TaskAW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02AE7428D1D80400F9A916 /* TaskAW.swift */; };
+		0A02AE7728D1E81100F9A916 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02AE7628D1E81100F9A916 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		0A02AE6E28D1ADA900F9A916 /* DoCathTryThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DoCathTryThrows.swift; path = ../../DoCathTryThrows.swift; sourceTree = "<group>"; };
 		0A02AE7028D1B4AE00F9A916 /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
 		0A02AE7228D1CECE00F9A916 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
+		0A02AE7428D1D80400F9A916 /* TaskAW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAW.swift; sourceTree = "<group>"; };
+		0A02AE7628D1E81100F9A916 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				0A02AE6028D1AD4000F9A916 /* SwiftConcurrencyApp.swift */,
+				0A02AE7628D1E81100F9A916 /* Extension.swift */,
 				0A02AE6E28D1ADA900F9A916 /* DoCathTryThrows.swift */,
 				0A02AE7028D1B4AE00F9A916 /* DownloadImageAsync.swift */,
 				0A02AE7228D1CECE00F9A916 /* AsyncAwait.swift */,
+				0A02AE7428D1D80400F9A916 /* TaskAW.swift */,
 				0A02AE6428D1AD4200F9A916 /* Assets.xcassets */,
 				0A02AE6628D1AD4200F9A916 /* Preview Content */,
 			);
@@ -145,6 +151,8 @@
 			files = (
 				0A02AE6F28D1ADA900F9A916 /* DoCathTryThrows.swift in Sources */,
 				0A02AE7128D1B4AE00F9A916 /* DownloadImageAsync.swift in Sources */,
+				0A02AE7528D1D80400F9A916 /* TaskAW.swift in Sources */,
+				0A02AE7728D1E81100F9A916 /* Extension.swift in Sources */,
 				0A02AE6128D1AD4000F9A916 /* SwiftConcurrencyApp.swift in Sources */,
 				0A02AE7328D1CECE00F9A916 /* AsyncAwait.swift in Sources */,
 			);
