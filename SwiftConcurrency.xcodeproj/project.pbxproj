@@ -20,6 +20,7 @@
 		0A3549B128D2CE3000E4B6BC /* CheckedContinuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3549B028D2CE3000E4B6BC /* CheckedContinuation.swift */; };
 		0A3549B528D2DF5E00E4B6BC /* Actors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3549B428D2DF5E00E4B6BC /* Actors.swift */; };
 		0A3549B728D2E82100E4B6BC /* GlobalActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3549B628D2E82100E4B6BC /* GlobalActor.swift */; };
+		0A3549B928D2EE3400E4B6BC /* SendableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3549B828D2EE3400E4B6BC /* SendableProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		0A3549B028D2CE3000E4B6BC /* CheckedContinuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuation.swift; sourceTree = "<group>"; };
 		0A3549B428D2DF5E00E4B6BC /* Actors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actors.swift; sourceTree = "<group>"; };
 		0A3549B628D2E82100E4B6BC /* GlobalActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalActor.swift; sourceTree = "<group>"; };
+		0A3549B828D2EE3400E4B6BC /* SendableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				0A3549B028D2CE3000E4B6BC /* CheckedContinuation.swift */,
 				0A3549B428D2DF5E00E4B6BC /* Actors.swift */,
 				0A3549B628D2E82100E4B6BC /* GlobalActor.swift */,
+				0A3549B828D2EE3400E4B6BC /* SendableProtocol.swift */,
 				0A02AE6428D1AD4200F9A916 /* Assets.xcassets */,
 				0A02AE6628D1AD4200F9A916 /* Preview Content */,
 			);
@@ -169,6 +172,7 @@
 				0A02AE7128D1B4AE00F9A916 /* DownloadImageAsync.swift in Sources */,
 				0A02AE7B28D1F09100F9A916 /* TaskGroup.swift in Sources */,
 				0A02AE7928D1EA5A00F9A916 /* AsyncLet.swift in Sources */,
+				0A3549B928D2EE3400E4B6BC /* SendableProtocol.swift in Sources */,
 				0A02AE7528D1D80400F9A916 /* TaskAW.swift in Sources */,
 				0A02AE7728D1E81100F9A916 /* Extension.swift in Sources */,
 				0A02AE6128D1AD4000F9A916 /* SwiftConcurrencyApp.swift in Sources */,
