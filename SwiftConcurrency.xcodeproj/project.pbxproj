@@ -17,6 +17,7 @@
 		0A02AE7728D1E81100F9A916 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02AE7628D1E81100F9A916 /* Extension.swift */; };
 		0A02AE7928D1EA5A00F9A916 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02AE7828D1EA5A00F9A916 /* AsyncLet.swift */; };
 		0A02AE7B28D1F09100F9A916 /* TaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02AE7A28D1F09100F9A916 /* TaskGroup.swift */; };
+		0A3549B128D2CE3000E4B6BC /* CheckedContinuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3549B028D2CE3000E4B6BC /* CheckedContinuation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		0A02AE7628D1E81100F9A916 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		0A02AE7828D1EA5A00F9A916 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
 		0A02AE7A28D1F09100F9A916 /* TaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroup.swift; sourceTree = "<group>"; };
+		0A3549B028D2CE3000E4B6BC /* CheckedContinuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				0A02AE7428D1D80400F9A916 /* TaskAW.swift */,
 				0A02AE7828D1EA5A00F9A916 /* AsyncLet.swift */,
 				0A02AE7A28D1F09100F9A916 /* TaskGroup.swift */,
+				0A3549B028D2CE3000E4B6BC /* CheckedContinuation.swift */,
 				0A02AE6428D1AD4200F9A916 /* Assets.xcassets */,
 				0A02AE6628D1AD4200F9A916 /* Preview Content */,
 			);
@@ -162,6 +165,7 @@
 				0A02AE7528D1D80400F9A916 /* TaskAW.swift in Sources */,
 				0A02AE7728D1E81100F9A916 /* Extension.swift in Sources */,
 				0A02AE6128D1AD4000F9A916 /* SwiftConcurrencyApp.swift in Sources */,
+				0A3549B128D2CE3000E4B6BC /* CheckedContinuation.swift in Sources */,
 				0A02AE7328D1CECE00F9A916 /* AsyncAwait.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
