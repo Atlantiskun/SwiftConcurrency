@@ -18,6 +18,7 @@
 		0A02AE7928D1EA5A00F9A916 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02AE7828D1EA5A00F9A916 /* AsyncLet.swift */; };
 		0A02AE7B28D1F09100F9A916 /* TaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A02AE7A28D1F09100F9A916 /* TaskGroup.swift */; };
 		0A3549B128D2CE3000E4B6BC /* CheckedContinuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3549B028D2CE3000E4B6BC /* CheckedContinuation.swift */; };
+		0A3549B528D2DF5E00E4B6BC /* Actors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3549B428D2DF5E00E4B6BC /* Actors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		0A02AE7828D1EA5A00F9A916 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
 		0A02AE7A28D1F09100F9A916 /* TaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroup.swift; sourceTree = "<group>"; };
 		0A3549B028D2CE3000E4B6BC /* CheckedContinuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuation.swift; sourceTree = "<group>"; };
+		0A3549B428D2DF5E00E4B6BC /* Actors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				0A02AE7828D1EA5A00F9A916 /* AsyncLet.swift */,
 				0A02AE7A28D1F09100F9A916 /* TaskGroup.swift */,
 				0A3549B028D2CE3000E4B6BC /* CheckedContinuation.swift */,
+				0A3549B428D2DF5E00E4B6BC /* Actors.swift */,
 				0A02AE6428D1AD4200F9A916 /* Assets.xcassets */,
 				0A02AE6628D1AD4200F9A916 /* Preview Content */,
 			);
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A02AE6F28D1ADA900F9A916 /* DoCathTryThrows.swift in Sources */,
+				0A3549B528D2DF5E00E4B6BC /* Actors.swift in Sources */,
 				0A02AE7128D1B4AE00F9A916 /* DownloadImageAsync.swift in Sources */,
 				0A02AE7B28D1F09100F9A916 /* TaskGroup.swift in Sources */,
 				0A02AE7928D1EA5A00F9A916 /* AsyncLet.swift in Sources */,
