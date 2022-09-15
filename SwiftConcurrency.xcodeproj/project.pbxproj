@@ -21,6 +21,8 @@
 		0A3549B528D2DF5E00E4B6BC /* Actors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3549B428D2DF5E00E4B6BC /* Actors.swift */; };
 		0A3549B728D2E82100E4B6BC /* GlobalActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3549B628D2E82100E4B6BC /* GlobalActor.swift */; };
 		0A3549B928D2EE3400E4B6BC /* SendableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3549B828D2EE3400E4B6BC /* SendableProtocol.swift */; };
+		0A3549BB28D2F3E500E4B6BC /* AsyncPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3549BA28D2F3E500E4B6BC /* AsyncPublisher.swift */; };
+		0A3549BD28D314CE00E4B6BC /* CustomAsyncPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3549BC28D314CE00E4B6BC /* CustomAsyncPublisher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		0A3549B428D2DF5E00E4B6BC /* Actors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actors.swift; sourceTree = "<group>"; };
 		0A3549B628D2E82100E4B6BC /* GlobalActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalActor.swift; sourceTree = "<group>"; };
 		0A3549B828D2EE3400E4B6BC /* SendableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableProtocol.swift; sourceTree = "<group>"; };
+		0A3549BA28D2F3E500E4B6BC /* AsyncPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPublisher.swift; sourceTree = "<group>"; };
+		0A3549BC28D314CE00E4B6BC /* CustomAsyncPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAsyncPublisher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 			children = (
 				0A02AE6028D1AD4000F9A916 /* SwiftConcurrencyApp.swift */,
 				0A02AE7628D1E81100F9A916 /* Extension.swift */,
+				0A3549BC28D314CE00E4B6BC /* CustomAsyncPublisher.swift */,
 				0A02AE6E28D1ADA900F9A916 /* DoCathTryThrows.swift */,
 				0A02AE7028D1B4AE00F9A916 /* DownloadImageAsync.swift */,
 				0A02AE7228D1CECE00F9A916 /* AsyncAwait.swift */,
@@ -83,6 +88,7 @@
 				0A3549B428D2DF5E00E4B6BC /* Actors.swift */,
 				0A3549B628D2E82100E4B6BC /* GlobalActor.swift */,
 				0A3549B828D2EE3400E4B6BC /* SendableProtocol.swift */,
+				0A3549BA28D2F3E500E4B6BC /* AsyncPublisher.swift */,
 				0A02AE6428D1AD4200F9A916 /* Assets.xcassets */,
 				0A02AE6628D1AD4200F9A916 /* Preview Content */,
 			);
@@ -167,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3549BD28D314CE00E4B6BC /* CustomAsyncPublisher.swift in Sources */,
 				0A02AE6F28D1ADA900F9A916 /* DoCathTryThrows.swift in Sources */,
 				0A3549B528D2DF5E00E4B6BC /* Actors.swift in Sources */,
 				0A02AE7128D1B4AE00F9A916 /* DownloadImageAsync.swift in Sources */,
@@ -178,6 +185,7 @@
 				0A02AE6128D1AD4000F9A916 /* SwiftConcurrencyApp.swift in Sources */,
 				0A3549B128D2CE3000E4B6BC /* CheckedContinuation.swift in Sources */,
 				0A3549B728D2E82100E4B6BC /* GlobalActor.swift in Sources */,
+				0A3549BB28D2F3E500E4B6BC /* AsyncPublisher.swift in Sources */,
 				0A02AE7328D1CECE00F9A916 /* AsyncAwait.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

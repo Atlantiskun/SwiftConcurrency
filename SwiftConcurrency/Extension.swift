@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Combine
 
 extension View {
     
@@ -21,5 +22,18 @@ extension View {
             .onDisappear {
                 task?.cancel()
             }
+    }
+}
+
+extension Publisher where Failure == Never {
+    
+    /// get `AnyPublisher` from `Publisher` to work with `CustomAsyncPublisher`
+    private var anyPublisher: AnyPublisher<Self.Output, Self.Failure> {
+        self.eraseToAnyPublisher()
+    }
+    
+    /// Should be work like .values in iOS 15+
+    var customValues: CustomAsyncPublisher<AnyPublisher<Self.Output, Never>> {
+        CustomAsyncPublisher<AnyPublisher>(anyPublisher)
     }
 }
